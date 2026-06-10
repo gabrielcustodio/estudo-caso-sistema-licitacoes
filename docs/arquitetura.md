@@ -2,15 +2,9 @@
 
 Este documento apresenta uma visão geral, anonimizada e simplificada, da arquitetura de um sistema interno de monitoramento e análise de licitações no qual participei durante minha experiência como estagiário de desenvolvimento web.
 
-O objetivo deste material não é documentar a arquitetura completa do sistema original, mas registrar os principais conceitos, fluxos e decisões técnicas com os quais trabalhei, estudei e tive contato durante o desenvolvimento e manutenção de funcionalidades.
+O objetivo deste material não é documentar a arquitetura completa do sistema original, mas registrar os principais conceitos, fluxos e decisões técnicas relacionados à minha participação no desenvolvimento e manutenção de funcionalidades.
 
-Por confidencialidade, detalhes internos, código-fonte, nomes de clientes, regras específicas de negócio, estrutura real do banco de dados e telas do sistema foram omitidos ou generalizados.
-
-## Escopo da minha participação
-
-Minha atuação esteve relacionada ao desenvolvimento e manutenção de funcionalidades da aplicação, com foco em telas, consumo de APIs, filtros, dashboards, relatórios, regras de exibição por perfil de usuário e integração entre frontend, backend e banco de dados.
-
-Este documento não representa a autoria integral da arquitetura do sistema, mas sim uma síntese dos conceitos técnicos com os quais trabalhei, estudei e tive contato durante minha participação no projeto.
+Este documento faz parte de um estudo de caso anonimizado. Detalhes internos, dados reais e regras específicas foram omitidos.
 
 ## Visão geral
 
@@ -44,16 +38,6 @@ Durante minha participação, atuei em funcionalidades relacionadas a:
 * Ajustes de interface e experiência do usuário;
 * Renderização condicional de elementos conforme o perfil do usuário.
 
-Tecnologias e conceitos relacionados:
-
-* React;
-* TypeScript;
-* Componentização;
-* Consumo de APIs;
-* Organização de estados;
-* Renderização condicional;
-* Experiência do usuário.
-
 ## Backend
 
 O backend funcionava como camada intermediária entre o frontend e o banco de dados. Essa camada era responsável por organizar rotas, aplicar regras de negócio, validar permissões e retornar dados ao frontend de forma estruturada.
@@ -70,18 +54,6 @@ Durante o projeto, aprofundei meus conhecimentos e participei de funcionalidades
 * Integração com banco de dados;
 * Tratamento de erros;
 * Padronização de respostas.
-
-Tecnologias e conceitos relacionados:
-
-* Node.js;
-* Express;
-* SQL;
-* Supabase/PostgreSQL;
-* Zod;
-* CORS;
-* dotenv;
-* RBAC;
-* Docker.
 
 ## Integrações e configurações auxiliares
 
@@ -155,20 +127,3 @@ A separação entre frontend, backend e banco de dados trouxe benefícios como:
 * Reaproveitamento de endpoints;
 * Melhor manutenção do código;
 * Maior clareza na evolução de funcionalidades.
-
-## Aprendizados
-
-Esse contato com a arquitetura do projeto contribuiu para meu aprendizado em:
-
-* Estruturação de aplicações full stack;
-* Integração entre frontend e backend;
-* Consumo e criação de APIs REST;
-* Controle de acesso por perfil;
-* Organização de filtros e paginação;
-* Uso de banco de dados relacional;
-* Separação de responsabilidades;
-* Desenvolvimento de funcionalidades em contexto de sistema real.
-
-## Observação
-
-Este documento é uma representação simplificada e anonimizada, criada apenas para fins de portfólio e estudo. Nenhuma informação sensível, código proprietário ou dado real do sistema original é divulgado.

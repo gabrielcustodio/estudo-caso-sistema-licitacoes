@@ -2,15 +2,9 @@
 
 Este documento apresenta uma visão geral, anonimizada e simplificada, dos conceitos de autenticação, autorização e controle de permissões por perfil de usuário trabalhados em um sistema interno de monitoramento e análise de licitações.
 
-O objetivo não é expor a implementação real do sistema, mas registrar os principais conceitos técnicos com os quais trabalhei, estudei e tive contato durante minha participação no projeto.
+O objetivo não é expor a implementação real do sistema, mas registrar os principais conceitos técnicos relacionados ao controle de acesso, autenticação, autorização e permissões por perfil de usuário.
 
-Por confidencialidade, nomes reais de tabelas, regras específicas de negócio, código-fonte, permissões internas e dados sensíveis foram omitidos ou generalizados.
-
-## Escopo da minha participação
-
-Minha atuação esteve relacionada ao desenvolvimento e manutenção de funcionalidades que dependiam do perfil do usuário, incluindo regras de exibição no frontend, consumo de dados filtrados pela API, ajustes em permissões, validação de acesso a telas e compreensão do fluxo entre autenticação, contexto do usuário e autorização no backend.
-
-Este documento não representa a autoria integral do modelo de permissões do sistema, mas sim uma síntese dos conceitos aplicados, estudados e observados durante minha participação no projeto.
+Este documento faz parte de um estudo de caso anonimizado. Detalhes internos, dados reais e regras específicas foram omitidos.
 
 ## Conceito de RBAC
 
@@ -228,41 +222,3 @@ Durante o contato com esse tipo de controle, alguns cuidados se destacaram:
 * Testar cenários com diferentes perfis;
 * Evitar duplicação de lógica entre telas;
 * Garantir que mudanças no perfil do usuário reflitam corretamente na interface.
-
-## Tecnologias e conceitos relacionados
-
-Durante o projeto, trabalhei, estudei ou tive contato com os seguintes conceitos e tecnologias relacionados ao controle de acesso:
-
-* Autenticação;
-* Autorização;
-* RBAC;
-* Middlewares;
-* APIs REST;
-* React;
-* TypeScript;
-* Node.js;
-* Express;
-* Supabase;
-* PostgreSQL;
-* SQL;
-* Renderização condicional;
-* Escopo de dados por usuário;
-* Controle de permissões por perfil;
-* Segurança em APIs.
-
-## Aprendizados
-
-O contato com esse fluxo de permissões foi importante para aprofundar meu entendimento sobre:
-
-* A diferença entre autenticação e autorização;
-* A importância de validar permissões no backend;
-* Como adaptar interfaces conforme o perfil do usuário;
-* Como organizar regras de acesso em sistemas multiusuário;
-* Como filtrar dados de acordo com o escopo permitido;
-* Como middlewares ajudam a separar responsabilidades;
-* Como RBAC contribui para a manutenção e evolução de sistemas internos;
-* Como pensar em segurança e experiência do usuário ao mesmo tempo.
-
-## Observação
-
-Este documento é uma representação simplificada e anonimizada, criada apenas para fins de portfólio e estudo. Nenhuma informação sensível, código proprietário, dado real ou regra interna específica do sistema original é divulgada.

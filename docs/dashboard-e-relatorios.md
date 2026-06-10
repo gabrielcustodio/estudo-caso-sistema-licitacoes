@@ -2,17 +2,9 @@
 
 Este documento apresenta uma visão geral, anonimizada e simplificada, dos conceitos relacionados a dashboards, indicadores, filtros e relatórios trabalhados em um sistema interno de monitoramento e análise de licitações.
 
-O objetivo não é expor telas reais, regras específicas de negócio ou dados internos do sistema, mas registrar os principais conceitos técnicos e funcionais com os quais trabalhei, estudei e tive contato durante minha participação no projeto.
+O objetivo não é expor telas reais, regras específicas de negócio ou dados internos do sistema, mas registrar os principais conceitos técnicos e funcionais relacionados à visualização, organização e filtragem de dados.
 
-Por confidencialidade, nomes de clientes, métricas reais, consultas específicas, telas internas, regras de negócio e dados sensíveis foram omitidos ou generalizados.
-
-## Escopo da minha participação
-
-Minha atuação esteve relacionada ao desenvolvimento, manutenção e melhoria de funcionalidades envolvendo visualização de dados, filtros, dashboards, relatórios e integração entre frontend, backend e banco de dados.
-
-Durante o projeto, trabalhei com telas e fluxos que dependiam de dados organizados, consumo de APIs, aplicação de filtros, renderização de indicadores, controle de permissões e apresentação das informações de forma clara para diferentes perfis de usuário.
-
-Este documento não representa a autoria integral dos módulos de dashboard e relatórios, mas sim uma síntese dos conceitos técnicos que pratiquei, estudei e acompanhei durante minha participação.
+Este documento faz parte de um estudo de caso anonimizado. Detalhes internos, dados reais e regras específicas foram omitidos.
 
 ## Objetivo dos dashboards
 
@@ -212,43 +204,3 @@ Alguns desafios comuns nesse tipo de funcionalidade incluem:
 * Manter clareza visual mesmo com grande volume de informações;
 * Evitar duplicação de regras entre frontend e backend;
 * Garantir consistência entre relatórios, dashboards e filtros.
-
-## Tecnologias e conceitos relacionados
-
-Durante o projeto, trabalhei, estudei ou tive contato com os seguintes conceitos e tecnologias relacionados a dashboards e relatórios:
-
-* React;
-* TypeScript;
-* Node.js;
-* Express;
-* Supabase;
-* PostgreSQL;
-* SQL;
-* APIs REST;
-* Filtros;
-* Paginação;
-* Views;
-* Dashboards;
-* Relatórios;
-* Autenticação;
-* Autorização;
-* RBAC;
-* Renderização condicional;
-* Tratamento de erros;
-* Organização de dados para interface.
-
-## Aprendizados
-
-O contato com dashboards e relatórios foi importante para aprofundar meu entendimento sobre:
-
-* Como transformar dados do banco em informações úteis para o usuário;
-* Como estruturar endpoints para telas com filtros e indicadores;
-* Como aplicar permissões em dados exibidos na interface;
-* Como dashboards dependem de regras bem organizadas no backend;
-* Como relatórios exigem consistência entre filtros, dados e permissões;
-* Como melhorar a experiência do usuário em telas com grande volume de informação;
-* Como pensar em sistemas web além de CRUDs simples.
-
-## Observação
-
-Este documento é uma representação simplificada e anonimizada, criada apenas para fins de portfólio e estudo. Nenhuma informação sensível, código proprietário, tela real, dado interno ou regra específica do sistema original é divulgada.

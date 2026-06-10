@@ -4,13 +4,7 @@ Este documento apresenta uma síntese dos principais aprendizados técnicos e pr
 
 O objetivo não é expor detalhes internos do projeto, mas registrar os conhecimentos adquiridos ao trabalhar em funcionalidades relacionadas a frontend, backend, banco de dados, permissões, dashboards, relatórios, filtros e manutenção de uma aplicação em contexto real.
 
-Por confidencialidade, informações sensíveis, código-fonte, dados reais, regras específicas de negócio e telas internas foram omitidos ou generalizados.
-
-## Escopo da minha participação
-
-Minha atuação esteve relacionada ao desenvolvimento e manutenção de funcionalidades da aplicação, principalmente em telas, consumo de APIs, filtros, dashboards, relatórios, controle de permissões por perfil de usuário e integração entre frontend, backend e banco de dados.
-
-Este documento não representa a autoria integral das soluções do sistema, mas sim os aprendizados obtidos a partir dos conceitos que trabalhei, estudei, acompanhei e pratiquei durante minha participação no projeto.
+Este documento faz parte de um estudo de caso anonimizado. Detalhes internos, dados reais e regras específicas foram omitidos.
 
 ## 1. Aplicações reais exigem mais do que CRUD
 
@@ -199,38 +193,6 @@ Mesmo assim, é possível apresentar aprendizados técnicos de forma profissiona
 
 Esse case foi estruturado com esse cuidado: explicar conceitos e desafios técnicos sem expor informações sensíveis.
 
-## Tecnologias e conceitos consolidados
-
-Durante minha participação no projeto, consolidei ou aprofundei conhecimentos em:
-
-* React;
-* TypeScript;
-* Node.js;
-* Express;
-* Supabase;
-* PostgreSQL;
-* SQL;
-* APIs REST;
-* Docker;
-* Zod;
-* CORS;
-* dotenv;
-* Resend;
-* OpenAI API;
-* Autenticação;
-* Autorização;
-* RBAC;
-* Middlewares;
-* Filtros;
-* Paginação;
-* Dashboards;
-* Relatórios;
-* Tratamento de erros;
-* Renderização condicional;
-* Escopo de dados por usuário;
-* Integração com serviços externos;
-* Manutenção de sistemas existentes.
-
 ## Conclusão
 
 A participação nesse projeto contribuiu para minha evolução como desenvolvedor full stack júnior, principalmente por aproximar meus estudos de um contexto real de produto.
@@ -238,7 +200,3 @@ A participação nesse projeto contribuiu para minha evolução como desenvolved
 O contato com autenticação, permissões, dashboards, relatórios, filtros, banco de dados e manutenção de funcionalidades existentes me ajudou a entender melhor como aplicações web são organizadas e evoluídas em ambiente profissional.
 
 Mais do que praticar tecnologias isoladas, esse projeto reforçou a importância de compreender arquitetura, regras de negócio, segurança, experiência do usuário e colaboração em equipe.
-
-## Observação
-
-Este documento é uma representação simplificada e anonimizada, criada apenas para fins de portfólio e estudo. Nenhuma informação sensível, código proprietário, tela real, dado interno ou regra específica do sistema original é divulgada.

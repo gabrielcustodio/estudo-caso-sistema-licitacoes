@@ -1,16 +1,10 @@
 # Desafios Técnicos
 
-Este documento apresenta uma visão geral, anonimizada e simplificada, dos principais desafios técnicos observados, estudados e trabalhados durante minha participação em um sistema interno de monitoramento e análise de licitações.
+Este documento apresenta uma visão geral, anonimizada e simplificada, dos principais desafios técnicos relacionados à minha participação em um sistema interno de monitoramento e análise de licitações.
 
 O objetivo não é expor problemas internos específicos, código-fonte, regras de negócio ou dados reais, mas registrar os tipos de desafios encontrados em uma aplicação full stack com autenticação, permissões, dashboards, relatórios, filtros e integração entre frontend, backend e banco de dados.
 
-Por confidencialidade, nomes de clientes, detalhes internos, telas reais, consultas específicas, credenciais, dados sensíveis e regras proprietárias foram omitidos ou generalizados.
-
-## Escopo da minha participação
-
-Minha atuação esteve relacionada ao desenvolvimento e manutenção de funcionalidades da aplicação, principalmente em telas, consumo de APIs, filtros, dashboards, relatórios, permissões por perfil de usuário e integração entre frontend, backend e banco de dados.
-
-Este documento não representa a autoria integral das soluções técnicas do sistema, mas sim uma síntese dos desafios com os quais trabalhei, estudei, acompanhei ou aprofundei conhecimentos durante minha participação no projeto.
+Este documento faz parte de um estudo de caso anonimizado. Detalhes internos, dados reais e regras específicas foram omitidos.
 
 ## 1. Separação entre frontend, backend e banco de dados
 
@@ -258,53 +252,3 @@ Alguns pontos importantes eram:
 * Evitar ações indisponíveis para determinados perfis.
 
 Esse desafio reforçou a importância de pensar em desenvolvimento web não apenas como código, mas também como experiência de uso.
-
-## Tecnologias e conceitos relacionados
-
-Durante o projeto, trabalhei, estudei ou tive contato com os seguintes conceitos e tecnologias relacionados aos desafios técnicos:
-
-* React;
-* TypeScript;
-* Node.js;
-* Express;
-* Supabase;
-* PostgreSQL;
-* SQL;
-* APIs REST;
-* Docker;
-* Zod;
-* CORS;
-* dotenv;
-* Resend;
-* OpenAI API;
-* Autenticação;
-* Autorização;
-* RBAC;
-* Middlewares;
-* Filtros;
-* Paginação;
-* Dashboards;
-* Relatórios;
-* Tratamento de erros;
-* Renderização condicional;
-* Escopo de dados por usuário;
-* Integração com serviços externos.
-
-## Principais aprendizados
-
-Os desafios técnicos observados e trabalhados durante o projeto contribuíram para meu desenvolvimento em pontos como:
-
-* Entender melhor a separação de responsabilidades em aplicações full stack;
-* Perceber a importância de centralizar regras sensíveis no backend;
-* Aplicar conceitos de autenticação, autorização e RBAC;
-* Trabalhar com filtros e paginação em telas com muitos dados;
-* Compreender como dashboards e relatórios dependem de dados bem estruturados;
-* Valorizar tratamento de erros e estados de interface;
-* Entender a importância da confidencialidade em projetos internos;
-* Melhorar a leitura e manutenção de código existente;
-* Pensar em experiência do usuário em sistemas com regras complexas;
-* Enxergar aplicações web além de CRUDs simples.
-
-## Observação
-
-Este documento é uma representação simplificada e anonimizada, criada apenas para fins de portfólio e estudo. Nenhuma informação sensível, código proprietário, tela real, dado interno ou regra específica do sistema original é divulgada.
