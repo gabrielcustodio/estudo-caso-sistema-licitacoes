@@ -2,7 +2,7 @@
 
 Este repositório apresenta um estudo de caso técnico, anonimizado e simplificado, baseado na minha participação em um sistema interno voltado ao monitoramento, organização e análise de licitações.
 
-O objetivo deste material não é divulgar o projeto original, seu código-fonte ou regras internas, mas registrar os principais conceitos técnicos, desafios e aprendizados obtidos durante minha experiência como estagiário de desenvolvimento web.
+O objetivo deste material não é divulgar o projeto original, seu código-fonte ou regras internas, mas registrar os principais conceitos técnicos, desafios e aprendizados obtidos durante minha durante minha participação no desenvolvimento do sistema.
 
 ## Objetivo do repositório
 

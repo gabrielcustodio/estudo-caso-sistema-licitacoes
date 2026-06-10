@@ -1,6 +1,6 @@
 # Arquitetura Geral
 
-Este documento apresenta uma visão geral, anonimizada e simplificada, da arquitetura de um sistema interno de monitoramento e análise de licitações no qual participei durante minha experiência como estagiário de desenvolvimento web.
+Este documento apresenta uma visão geral, anonimizada e simplificada, da arquitetura de um sistema interno de monitoramento e análise de licitações no qual participei durante minha participação no desenvolvimento de funcionalidades da aplicação.
 
 O objetivo deste material não é documentar a arquitetura completa do sistema original, mas registrar os principais conceitos, fluxos e decisões técnicas relacionados à minha participação no desenvolvimento e manutenção de funcionalidades.
 
